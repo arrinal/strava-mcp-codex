@@ -1,0 +1,10 @@
+export const PACKAGE_NAME = 'strava-mcp-codex';
+export const VERSION = '0.1.0';
+export const DEFAULT_UPSTREAM_MCP_URL = 'https://mcp.strava.com/mcp';
+export const DEFAULT_MCP_TOKEN_URL = 'https://www.strava.com/oauth/mcp/token';
+export const DEFAULT_OAUTH_TOKEN_URL = 'https://www.strava.com/oauth/token';
+export const DEFAULT_AUTHORIZE_URL = 'https://www.strava.com/oauth/authorize';
+export const DEFAULT_SCOPES = ['read', 'read_all', 'activity:read', 'activity:read_all', 'profile:read_all'];
+export const DEFAULT_PROTOCOL_VERSION = '2025-06-18';
+export const DEFAULT_CALLBACK_PORT = 8765;
+//# sourceMappingURL=constants.js.map

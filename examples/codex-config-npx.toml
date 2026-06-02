@@ -1,0 +1,3 @@
+[mcp_servers.strava]
+command = "npx"
+args = ["-y", "strava-mcp-codex"]

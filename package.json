@@ -1,0 +1,53 @@
+{
+  "name": "strava-mcp-codex",
+  "version": "0.1.0",
+  "description": "Local stdio bridge that lets Codex and other MCP clients use the Strava MCP remote endpoint.",
+  "type": "module",
+  "bin": {
+    "strava-mcp-codex": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "SECURITY.md",
+    "docs",
+    "examples"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/fix-bin-mode.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "npm run typecheck"
+  },
+  "keywords": [
+    "strava",
+    "mcp",
+    "codex",
+    "stdio",
+    "oauth"
+  ],
+  "author": "Strava MCP Codex contributors",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "vitest": "^4.1.8"
+  },
+  "homepage": "https://github.com/arrinal/strava-mcp-codex#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arrinal/strava-mcp-codex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arrinal/strava-mcp-codex/issues"
+  }
+}
